@@ -1,4 +1,4 @@
-Stock Analysis
+Stock Analysis: 
 This VBA macro, named StockAnalysis, is designed to analyze stock data for the years 2018, 2019, and 2020 in an Excel workbook. The macro performs the following tasks:
 
 Loops through each year in the array of years ("2018", "2019", "2020").
@@ -8,7 +8,7 @@ Outputs the results to a summary table in the worksheet.
 Applies conditional formatting to the yearly change cell to highlight positive changes in green and negative changes in red.
 Identifies the ticker with the greatest percent increase, greatest percent decrease, and greatest total volume, and outputs the results to the summary table.
 Formats the percent increase and percent decrease cells as percentages.
-Usage
+Usage: 
 Open an Excel workbook containing stock data for the years 2018, 2019, and 2020.
 Press Alt + F11 to open the Visual Basic Editor in Excel.
 Insert a new module or open an existing module.
@@ -18,13 +18,13 @@ Run the macro by going to the Excel worksheet with the stock data, and pressing 
 The macro will analyze the stock data for each year and output the results to a summary table in each worksheet.
 Note: Make sure to enable macros in your Excel settings before running the macro.
 
-Requirements
+Requirements: 
 This macro requires the following:
 
 Microsoft Excel (version 2010 or later)
 Stock data for the years 2018, 2019, and 2020 in separate worksheets in the Excel workbook.
 Stock data should be organized with the following columns: ticker symbol (in column A), date (in column B), opening price (in column C), closing price (in column F), and volume (in column G).
-Output
+Output: 
 The macro will output the following results to the summary table in each worksheet:
 
 Ticker symbol in column I
